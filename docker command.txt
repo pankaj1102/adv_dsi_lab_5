@@ -1,0 +1,1 @@
+docker run  -dit --rm --name adv_dsi_lab_5 -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v c://users/pankaja/Documents/Projects/adv_dsi_lab_5:/home/jovyan/work -v c://users/pankaja/Documents/Projects/adv_dsi_lab_5/src:/home/jovyan/work/src pytorch-notebook:latest 
